@@ -93,6 +93,5 @@ emailFailedTests.html
 emailPassedTests.html
 Result.html
 *Fortify*
-reports\
-node_modules
+node_modules/
 reports/
