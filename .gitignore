@@ -92,6 +92,7 @@ log/
 emailFailedTests.html
 emailPassedTests.html
 Result.html
-*Fortify*
 node_modules/
+*Fortify*
+./node_modules/
 reports/
