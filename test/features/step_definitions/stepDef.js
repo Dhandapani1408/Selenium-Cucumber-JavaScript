@@ -39,6 +39,6 @@ When('click login', { timeout: 30 * 1000 }, async function () {
 Then('verify user is logged in', { timeout: 30 * 1000 }, async function () {
   // let text =  driver.findElement(By.xpath(elements.welcomeNote)).getText();
   let text = await cmnFunction.getTextOfElement(elements.welcomeNote)
-  await expect(text).contains("Welcome");
+  expect(text).contains("Welcome");
   console.log("verify user is logged in");
 });
