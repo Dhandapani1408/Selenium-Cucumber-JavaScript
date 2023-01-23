@@ -6,3 +6,4 @@ Feature: user login
     And enter password
     And click login
     Then verify user is logged in
+    Then click on crmsfa link
